@@ -42,7 +42,7 @@ An Image Gallery application that displays images in a grid layout with full-scr
 - Auto slideshow
 
 📱 **Download APK:**  
-👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-02/Task-02-Image-Gallery.apk
+👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-02/app-debug.apk
 
 ---
 
