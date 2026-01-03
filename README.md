@@ -56,8 +56,7 @@ An Android app that fetches and displays contacts from the user’s phone.
 - List-based contact display
 
 📱 **Download APK:**  
-👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-03/Task-03-Contacts-List.apk
-
+👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-03/app-debug.apk
 ---
 
 ### ✅ Task 4: Simple Switch Between Activities
@@ -69,7 +68,7 @@ A basic Android app demonstrating navigation between activities using intents.
 - Data passing using Intent
 
 📱 **Download APK:**  
-👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-04/Task-04-Activity-Switch.apk
+👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-04/app-debug.apk
 
 ---
 
@@ -82,7 +81,7 @@ A Timer application with start, pause, and reset functionality.
 - Real-time UI updates
 
 📱 **Download APK:**  
-👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-05/Task-05-Timer-App.apk
+👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-05/app-debug.apk
 
 ---
 
