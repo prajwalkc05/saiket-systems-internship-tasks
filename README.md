@@ -26,7 +26,7 @@ An Android Quiz application that allows users to answer multiple-choice question
 - Simple and clean UI
 
 📱 **Download APK:**  
-👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-01/Task-01-Quiz-App.apk
+👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-01/app-debug.apk
 
 ---
 
