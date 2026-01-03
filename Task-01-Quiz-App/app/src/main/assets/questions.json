@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "text": "What is the capital of France?",
+    "options": ["London", "Berlin", "Paris", "Madrid"],
+    "correctAnswer": "Paris"
+  },
+  {
+    "id": 2,
+    "text": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correctAnswer": "Mars"
+  },
+  {
+    "id": 3,
+    "text": "Who wrote 'Hamlet'?",
+    "options": ["Charles Dickens", "J.K. Rowling", "William Shakespeare", "Mark Twain"],
+    "correctAnswer": "William Shakespeare"
+  },
+  {
+    "id": 4,
+    "text": "What is the largest ocean on Earth?",
+    "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "id": 5,
+    "text": "Which element has the chemical symbol 'O'?",
+    "options": ["Gold", "Oxygen", "Osmium", "Olive"],
+    "correctAnswer": "Oxygen"
+  }
+]

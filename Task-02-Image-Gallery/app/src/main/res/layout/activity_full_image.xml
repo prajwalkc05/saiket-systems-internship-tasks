@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/fullImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Full screen image"
+        android:scaleType="fitCenter" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#40000000"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="❮ Back"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btnSlideshow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="Slideshow"
+            android:textColor="#FFFFFF"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

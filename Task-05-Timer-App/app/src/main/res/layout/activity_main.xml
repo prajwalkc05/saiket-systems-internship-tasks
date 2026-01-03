@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stopwatch"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Timer Card -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardTimer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:strokeWidth="0dp"
+        app:cardBackgroundColor="?attr/colorSurface"
+        app:layout_constraintBottom_toTopOf="@+id/btnStartPause"
+        app:layout_constraintTop_toBottomOf="@+id/tvHeader"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurface"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingVertical="48dp"
+            android:paddingHorizontal="16dp"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Reset Button (Secondary) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnReset"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:text="Reset"
+        android:textSize="16sp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnStartPause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Start/Pause/Resume Button (Primary) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartPause"
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:text="Start"
+        android:textSize="16sp"
+        android:layout_marginStart="12dp"
+        app:cornerRadius="32dp"
+        app:layout_constraintStart_toEndOf="@+id/btnReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

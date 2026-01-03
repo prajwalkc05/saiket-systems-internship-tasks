@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleQuizApp</string>
+    <string name="no_questions_found">No questions found! Please ensure data is loaded.</string>
+    <string name="please_select_answer">Please select an answer to continue.</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="question_progress">Question %1$d of %2$d</string>
+    <string name="correct_message">Correct!</string>
+    <string name="wrong_message">Wrong!</string>
+    
+    <!-- New Strings -->
+    <string name="excellent_work">Excellent Work!</string>
+    <string name="good_job">Good Job!</string>
+    <string name="try_again">Try Again!</string>
+    <string name="your_score">Your Score</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="exit_app">Exit App</string>
+    <string name="start_quiz">Start Quiz</string>
+</resources>

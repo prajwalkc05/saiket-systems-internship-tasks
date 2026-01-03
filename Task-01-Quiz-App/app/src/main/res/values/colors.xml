@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Material Design colors referenced by build system/default templates 
+         Redefined to match the premium Blue-Teal palette -->
+    <color name="purple_200">#00ACC1</color> <!-- Replaced with Cyan/Teal -->
+    <color name="purple_500">#1A237E</color> <!-- Replaced with Deep Blue -->
+    <color name="purple_700">#000051</color> <!-- Replaced with Darker Indigo -->
+    <color name="teal_200">#00E5FF</color>   <!-- Lighter Cyan -->
+    <color name="teal_700">#00838F</color>   <!-- Darker Cyan -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Premium App Colors (Material 3 Style) -->
+    <color name="primary">#1A237E</color>       <!-- Deep Blue / Indigo -->
+    <color name="primary_dark">#000051</color>  <!-- Darker Indigo -->
+    <color name="accent">#00ACC1</color>        <!-- Cyan/Teal -->
+    <color name="background">#F5F7FA</color>    <!-- Soft Gray -->
+    <color name="surface">#FFFFFF</color>       <!-- White Surface -->
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Feedback Colors -->
+    <color name="correct">#2E7D32</color>       <!-- Green -->
+    <color name="wrong">#C62828</color>         <!-- Red -->
+    <color name="timer_warning">#F57F17</color> <!-- Orange -->
+</resources>
