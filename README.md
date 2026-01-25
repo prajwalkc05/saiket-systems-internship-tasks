@@ -57,6 +57,7 @@ An Android app that fetches and displays contacts from the user’s phone.
 
 📱 **Download APK:**  
 👉 https://github.com/prajwalkc05/saiket-systems-internship-tasks/releases/download/task-03/contact.apk
+
 ---
 
 ### ✅ Task 4: Simple Switch Between Activities
